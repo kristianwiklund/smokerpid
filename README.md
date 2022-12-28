@@ -97,11 +97,14 @@ Disconnect the device from the computer, and continue with the next step.
 - Check your connections, and plug in the device.
 - Monitor the temperature, after a while it should settle around the setpoint.
 
+![Device connected to the smoker](pics/connected.jpg)
+
 ### PID Tuning
 
 - The PID can be autotuned - refer to the [ESPHome PID Climate pages](https://esphome.io/components/climate/pid.html#autotuning) for instructions.
-- The supplied parameters work good enough for my Bradley digital 4 rack smoker.
+- The supplied parameters work good enough for my Bradley digital 4 rack smoker - as shown for setpoint 18°C in the graph below.
 
+![Temperature graph, setpoint 18°C](pics/graph.png)
 
 
 
