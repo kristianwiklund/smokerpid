@@ -8,7 +8,7 @@ I needed a way to keep the smoker above freezing while cold smoking in the winte
 
 #### BOM
 
-** Build this device at your own risk - it switches deadly voltages and can kill you and cause fires if handled wrong! **
+**Build this device at your own risk - it switches deadly voltages and can kill you and cause fires if handled wrong!**
 
 The hardware consists of three principal devices:
 
@@ -69,7 +69,7 @@ Disconnect the device from the computer, and continue with the next step.
 
 ### Hardware part 2.
 
-** Make sure that your device is not connected to either wall power or the computer **
+**Make sure that your device is not connected to either wall power or the computer **
 
 - Connect the PSU to the ESP. Depending on your PSU, you may have to solder the 5V leads to the device.
 - Fix the ESP to the enclosure.
@@ -78,7 +78,7 @@ Disconnect the device from the computer, and continue with the next step.
 - Make sure that all devices are fixed in place.
 - Check that no wires are uninsulated
 - Check that no connectors are exposed or uninsulated
-- Test that your incoming ground - in the plug - reaches all connected points - screws as well as the output connector. 
+- Using the multimeter, test that your incoming ground - in the plug - reaches all connected points - screws as well as the output connector. 
 - Close the enclosure.
 
 ## Testing
