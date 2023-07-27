@@ -13,7 +13,7 @@ I needed a way to keep the smoker above freezing while cold smoking in the winte
 The hardware consists of three principal devices:
 
 - an ESP8266 board, I happened to have a Wemos D1 mini around.
-- a thermometer, the template assumes that it is a Dallas 1-wire device. **For cold smoking**, I use a [waterproofed assembly](https://www.adafruit.com/product/381), again, not a deliberate design choice but something I had around. Note that the 1-wire bus need a 4k7 resistor as pull-up.
+- a thermometer, the template assumes that it is a Dallas 1-wire device. **For cold smoking**, I use a [waterproofed assembly (aliexpress affiliate link)](https://s.click.aliexpress.com/e/_Dn2Jfsn), again, not a deliberate design choice but something I had around. Note that the 1-wire bus need a 4k7 resistor as pull-up.
 - a solid state relay (SSR) rated for your smoker's power draw and voltage. I use a 10A SSR which is the fuse rating for my outlet. Please note, mechanical relays will not work!
 
 Please note: If you intend to use the device for hot smoking, you **must replace the 1-wire thermometer with something that is rated for higher temperatures.**
